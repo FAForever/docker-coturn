@@ -23,7 +23,7 @@ min-port=${MIN_PORT}
 max-port=${MAX_PORT}
 EOF
 
-echo "listening-ip=${PUBLIC_IPV4}" >> ${TURNSERVER_CONFIG}-template
+echo "listening-ip=${BIND_IPV4}" >> ${TURNSERVER_CONFIG}-template
 echo "external-ip=${PUBLIC_IPV4}" >> ${TURNSERVER_CONFIG}-template
 echo "relay-ip=${PUBLIC_IPV4}" >> ${TURNSERVER_CONFIG}-template
 
